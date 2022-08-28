@@ -5,12 +5,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mage2Gen",
-            "email": "info@mage2gen.com"
+            "name": "Gabriel Silveira",
+            "email": "gabrielt.gts@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "piggly/php-pix": "^2.0"
+    },
     "autoload": {
         "files": [
             "registration.php"
